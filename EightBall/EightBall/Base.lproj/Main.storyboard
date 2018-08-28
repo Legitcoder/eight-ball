@@ -22,6 +22,9 @@
                                 <rect key="frame" x="147" y="160" width="81" height="102"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <state key="normal" title="🎱"/>
+                                <connections>
+                                    <action selector="flipEightBall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1d-JK-dI8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBj-AG-UsY">
                                 <rect key="frame" x="16" y="281" width="343" height="96"/>
@@ -39,6 +42,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="PBj-AG-UsY" id="wsa-9X-h7P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
